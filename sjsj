@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Site-Enter" content="revealTrans(Duration=2.0,Transition=7)">
+		<meta http-equiv="Site-Exit" content="revealTrans(Duration=2.0,Transition=7)">
+		<title>校园风采</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/scene.css">
+	    <style>
+	    /* 打开和关闭手风琴面板的样式 */
+	    .accordion {
+		  margin-top: 40px;
+		  margin-left: 180px;
+		  border-radius: 40px; /*这句就是重点，让边框变为圆角*/
+		  background: white;
+		  box-shadow: 3px 2px 80px rgba(0, 0, 0, 0.2);
+	      cursor: pointer;
+	      padding: 18px;
+	      width: 800px;
+		  height: 300px;
+	      text-align: center;
+	      border: none;
+	      outline: none;
+	      transition: 0.4s;
+		  font-size: 60px;
+		  font-family: "仿宋";
+		  font-weight: bold;
+	    }
+		.accordion img{
+			margin-top: -110px;
+			margin-left: -800px;
+			box-shadow: 3px 2px 80px rgba(0, 0, 0, 0.2);
+			border-radius: 40px; /*这句就是重点，让边框变为圆角*/
+		}
+		.accordion p{
+			font-size: 40px;
+			font-weight: 400;
+			height: 30px;
+			width: 200px;
+			margin-top: -30px;
+			margin-left: 420px;
+		}
+	     
+	    /* 为手风琴面板设计样式。 默认隐藏 */
+	    .panel {
+	      padding: 0 18px;
+	      background-color: white;
+	      max-height: 0;
+	      overflow: hidden;
+		  margin-left: 140px;
+	      transition: max-height 0.2s ease-out;
+		  font-size: 50px;
+	    }
+		.panel p{
+			margin-top: 30px;
+			font-size: 50px;
+			font-family: "仿宋";
+		}
+	    /* 设置 +、- 标志 */
+	    .accordion:after {
+	      content: '\002B';  /* Unicode 字符 + 号 */
+	      color: #777;
+	      font-weight: bold;
+		  font-size: 80px;
+	      float: right;
+	      margin-left: 5px;
+		  margin-top: -150px;
+	    }
+	     
+	    .active:after { 
+	      content: "\2212";  /* Unicode 字符 - 号 */
+	    }
+	    </style>
+	</head>
+	<body>
+		
+		
+	</body>
+</html>
